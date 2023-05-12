@@ -1,1 +1,12 @@
 # airbnb
+
+In this project I am experimenting with a real-life dataset to discover and understand the attributes that contribute to how Airbnb pricing
+works. This will in turn help new Airbnb hosts determine how they can put up their houses for rent and also help current renters to figure out what changes they can make to improve their ratings or prices. This will also help travelers to compare and determine prices within a specific area. there are a total of 35 features among which a few are customer ratings, customer satisfaction, city, neighborhood, etc. There are a total of 135616 records in the dataset.
+
+<img width="688" alt="Screen Shot 2023-05-12 at 3 01 34 PM" src="https://github.com/srirakshareddy/airbnb/assets/132956605/b6b94abb-14f3-4997-a790-93ffd77ebc05">
+
+**Dataset**: The Airbnb rating dataset (http://insideairbnb.com/getthe-data.html) is the main source of data for this project. I am trying to figure out which factors have the most impact on Airbnb ratings in the United States. LA Listings, NY Listings, Airbnb ratings new, and airbnb-reviews are the four datasets in the original dataset. The first three datasets contain nearly 60k instances and 35 attributes, such as customer ID, host ID, locations, layouts, furnishings, dwelling costs, review score ratings, and so on. There are 1325 cases in the last dataset, with six attributes: customer ID, host ID, review ID, reviewer name, date, and comments.
+
+The analysis includes five different methods to estimate what factors are dependent on price attributes. I've compared the results with the Mean Squared Error(MSE) Score.
+
+Here, the lowest error is in Neural Networks at 0.008. So, Neural Network has become the most effective method in analysis. And the highest Mean Squared Error (MSE) is of MLP Regressor at .42. Mean Square Error (MSE) is defined as the square of the difference between actual and estimated values divided by the mean or average. As there is no correct value for MSE it simply means the lower value is better. And 0 donates to a perfect model. So that is the reason for the MSE so can choose one prediction model over another. SVR is the second-best prediction model as MSE at 0.031. A regression tree’s purpose is to create a line that best fits the data. The MSE is the average squared difference between the actual data values and the planned line’s location. The SVR uses an algorithm to locate the line with the minimum MSE.
