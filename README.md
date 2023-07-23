@@ -1,4 +1,4 @@
-# airbnb
+# Airbnb Price Forecasting: Leveraging Predictive Analytics for Optimal Pricing
 
 In this project I am experimenting with a real-life dataset to discover and understand the attributes that contribute to how Airbnb pricing
 works. This will in turn help new Airbnb hosts determine how they can put up their houses for rent and also help current renters to figure out what changes they can make to improve their ratings or prices. This will also help travelers to compare and determine prices within a specific area. there are a total of 35 features among which a few are customer ratings, customer satisfaction, city, neighborhood, etc. There are a total of 135616 records in the dataset.
